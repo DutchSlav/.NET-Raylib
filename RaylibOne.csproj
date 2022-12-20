@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="resources" />
+        <Content Include="resources/**" CopyToPublishDirectory="Always" CopyToOutputDirectory="Always"/>
     </ItemGroup>
 
 </Project>
